@@ -1,0 +1,53 @@
+/* STAFF */
+#centrado {
+    text-align: center;
+    margin: 2%;
+}
+/*
+#centrado p {
+    padding: 1%;
+}
+*/
+#centrado{
+    p{ padding: 1%;}
+}
+  
+#img_staff {
+    display: flex;
+    justify-content: center;
+}
+  
+#lista {
+    margin: 5%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border: 1px black dotted;
+}
+  
+
+
+
+#lista {
+    ul{
+        li{
+            margin: 1%;
+            list-style-type: square;
+        }
+    }
+}
+  
+footer {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0.1%;
+    background-color: #FFECEC;
+}
+  
+.cien {
+    width: 100%;
+}
+
+
