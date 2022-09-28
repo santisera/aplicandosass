@@ -1,0 +1,17 @@
+%disposicion{
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo {
+    margin: 2%;
+    padding: 1%;
+    border: 1px solid black;
+    @extend %disposicion
+}
+
+#areas{
+    font-size: 25px;
+    @extend %disposicion
+}

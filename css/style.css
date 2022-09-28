@@ -1,3 +1,26 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 0.1%;
+  background-color: #FFECEC;
+}
+
+#areas, #logo {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  margin: 2%;
+  padding: 1%;
+  border: 1px solid black;
+}
+
+#areas {
+  font-size: 25px;
+}
+
 /* INDEX */
 * {
   margin: 0px;
@@ -225,7 +248,7 @@ footer {
 
 #lista {
   margin: 5%;
-  background-color: #f7f7f7;
+  background-color: pink;
   display: flex;
   justify-content: center;
   padding: 2%;

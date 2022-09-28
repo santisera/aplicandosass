@@ -1,0 +1,19 @@
+@mixin piedepagina {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0.1%;
+    background-color: #FFECEC;
+}
+
+footer{
+    @include piedepagina()
+}
+
+@mixin prueba ($size) {
+    font-size: $size;
+    margin: $size*0.5;
+    padding: $size;
+    color: mediumorchid;
+    
+}
