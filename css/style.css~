@@ -1,3 +1,10 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 0.1%;
+  background-color: #FFECEC;
+}
 
 #areas, #logo {
   display: flex;
@@ -8,10 +15,6 @@
   margin: 2%;
   padding: 1%;
   border: 1px solid black;
-}
-
-.container-fluid{
-  background-color: white;
 }
 
 #areas {
@@ -53,7 +56,7 @@
 }
 
 header {
-  
+  display: flex;
   justify-content: space-between;
 }
 
@@ -75,29 +78,17 @@ section article img {
 .grid-layout {
   padding: 2%;
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: auto auto auto;
   width: 80%;
   margin: 0 auto;
+  background-color: rgb(209, 209, 204);
   padding: 20px;
   border: 1px solid black;
 }
 
-.grid-layout01 img{
-  width: 99%;
-  
-}
-
-#texto_index{
-  margin: 2%;
-  padding: 1%;
-  text-align: center;
-}
-
-.grid-layout article div {
+section article div {
   border: 1px solid black;
   margin: 5%;
-  width: 90%;
-  height: 95%;
 }
 
 #logo {
@@ -116,43 +107,26 @@ section article img {
   border: 1px solid black;
 }
 
-#titulos_areas{
-  text-decoration: underline;
-  text-align: center;
-  font-size: 20px;
-}
-
-#dec_textos{
-  text-align: center;
-  margin: 1%;
-  padding: 1%;
-}
-
 #areas {
-  padding-top: 1%;
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   justify-content: center;
-  text-decoration: underline;
 }
 
 #txt {
   display: flex;
   margin: 2%;
-  
 }
 
 #centro {
-  margin: 3%;
+  margin: 1%;
   display: flex;
-  border: 1px solid #919191;
+  border: 1px solid black;
 }
 
 #centro img {
   margin: 2px;
   padding: 4px;
-  width: 45%;
-  height: 5%;
 }
 
 #centro div {
@@ -161,11 +135,6 @@ section article img {
 
 #section_areas {
   justify-content: space-between;
-}
-
-#dec_cajas{
-  border: solid #919191 1px;
-  margin: 5%;
 }
 
 .img {
@@ -183,7 +152,7 @@ section article img {
 #cliente {
   padding-top: 2%;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
 #cliente_abajo {
@@ -195,8 +164,9 @@ section article img {
   display: grid;
   grid-template-columns: auto auto auto;
   width: 80%;
-  margin: 3% auto 3%;
-  background-color: white;
+  margin: 0 auto;
+  background-color: rgb(209, 209, 204);
+  border: 1px solid black;
   justify-content: center;
   align-content: center;
 }
@@ -209,7 +179,7 @@ section article img {
 }
 
 .cajas {
-  border: 1px solid #919191;
+  border: 1px solid black;
   background-color: white;
 }
 
@@ -242,13 +212,31 @@ section article img {
   list-style-type: square;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 0.1%;
+  background-color: #FFECEC;
+}
 
+.cien {
+  width: 100%;
+}
+
+/* media queries */
+/*# sourceMappingURL=style.css.map */
 /* STAFF */
 #centrado {
   text-align: center;
   margin: 2%;
 }
 
+/*
+#centrado p {
+    padding: 1%;
+}
+*/
 #centrado p {
   padding: 1%;
 }
@@ -260,7 +248,7 @@ section article img {
 
 #lista {
   margin: 5%;
-  background-color: #fde5e6;
+  background-color: pink;
   display: flex;
   justify-content: center;
   padding: 2%;
@@ -280,15 +268,8 @@ footer {
   background-color: #FFECEC;
 }
 
-#titulos_footer{
-  justify-content: center;
-  text-decoration: underline;
-  font-size: 20px;
+.cien {
+  width: 100%;
 }
 
-
-
-
-@media only screen and (max-width: 768px){}
-
-@media only screen and (max-width: 576px){}
+/*# sourceMappingURL=style.css~.map */
